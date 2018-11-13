@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="miklapuszta" id="miklapuszta">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="nev" type="string"></SimpleField>
+</Schema>
+<Folder><name>miklapuszta</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#miklapuszta">
+		<SimpleData name="nev">Miklapuszta</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>19.1223,46.7513 19.2341,46.7513 19.190425597524396,46.62635449860754 19.146173739243007,46.572277995336755 19.062124907742113,46.619623385376336 19.114098566797438,46.667538831992751 19.129245176007846,46.700137828447126 19.111722628097763,46.732717159525052 19.1223,46.7513</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
